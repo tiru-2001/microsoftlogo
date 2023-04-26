@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .container > .square {
+        width: 100px;
+        height: 100px;
+
+        float: left;
+        margin: 4px;
+      }
+      .red {
+        background-color: #f65314;
+      }
+      .green {
+        background-color: #7cbb00;
+      }
+      .blue {
+        background-color: #00a1f1;
+        clear: left;
+      }
+      .yellow {
+        background-color: #ffbb00;
+      }
+      .container > h1 {
+        font-family: sans-serif;
+        text-align: center;
+        color: rgb(94, 94, 94);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="square red"></div>
+      <div class="square green"></div>
+      <div class="square blue"></div>
+      <div class="square yellow"></div>
+      <h1>Microsoft</h1>
+    </div>
+  </body>
+</html>
